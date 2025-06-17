@@ -3,7 +3,7 @@ import httpx
 from mcp.server.fastmcp import FastMCP
 
 # Initialize FastMCP server
-mcp = FastMCP("Weather Server", stateless_http=True)
+mcp = FastMCP(name="Weather Server", stateless_http=True)
 
 # Constants
 NWS_API_BASE = "https://api.weather.gov"
